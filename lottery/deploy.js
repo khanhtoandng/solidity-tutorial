@@ -5,7 +5,7 @@ const abi = JSON.parse(compile).contracts["Lottery.sol"].Lottery.abi;
 const evm = JSON.parse(compile).contracts["Lottery.sol"].Lottery.evm;
 
 const provider = new HDWalletProvider(
-  "absurd sign twelve essay green miss category claw volume dirt tragic search",
+  "MNEMONIC",
   "https://rinkeby.infura.io/v3/d68e27fed1074986b85ddffc9f1074b1"
 );
 
